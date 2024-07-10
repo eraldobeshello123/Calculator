@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"], select, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 26px;
+}
+
+button {
+    padding: 26px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+button:hover {
+    background-color: gold;
+}
